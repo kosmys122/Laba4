@@ -118,6 +118,15 @@ namespace Laba4
             p.Remove("Tom");
             p.RemoveRange(1, 2);
             p.Clear
+
+             //Задание 1
+             List<string> item = ["sword", "shield", "potion", "sword", "potion", "potion"];
+
+
+
+
+
+
         }
     }
 }
