@@ -140,6 +140,20 @@ namespace Laba4
                 }
             }
             Console.WriteLine(b);
+            //Задание 4
+            int[] a = [1, 2, 3, 4, 5];
+            int sh = 0;
+            int nesh = 0;
+            for (int i = 0; i < a.Length; i++)
+            {
+                if (a[i] % 2 == 0)
+                {
+                    sh++;
+                }
+                else
+                    nesh++;
+            }
+            Console.WriteLine($"Чётных чисел= {sh},нечётных чисел= {nesh}");
 
 
 
