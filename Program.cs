@@ -121,7 +121,14 @@ namespace Laba4
 
              //Задание 1
              List<string> item = ["sword", "shield", "potion", "sword", "potion", "potion"];
-
+            //Задание 2
+            int b = 0;
+            int[] a = [10, 20, 30, 40, 50, 60];
+            for (int i = 0; i < a.Length; i++)
+            {
+                b += a[i];
+            }
+            Console.WriteLine(b);
 
 
 
