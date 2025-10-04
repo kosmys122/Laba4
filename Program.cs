@@ -209,6 +209,30 @@ namespace Laba4
             {
                 Console.WriteLine(b[i]);
             }
+
+            //Задание 9
+            //int c = 0;
+            //List<string> a = ["Garrus", "Tali", "Mordin", "Grunt", "Jack"];
+            //List<string> b = ["Лидер команды", "Техник", "Биотик", "Солдат", "Поддержка"];
+            //foreach (var p in a)
+            //{
+            //    c++;
+            //}
+            //for (int i = 0; i < c; i++)
+            //{
+            //    Console.WriteLine($"{b[i]}: {a[i]}");
+            //}
+
+
+
+
+
+
+
+
+        }
+    }
+}
         }
     }
 }
