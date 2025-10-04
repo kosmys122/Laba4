@@ -180,7 +180,14 @@ namespace Laba4
             }
             Console.WriteLine($"Побед= {sh},Поражений= {nesh}");
 
-
+            //Задание 7
+            int[] a = [15, 20, 25, 30, 10];
+            int b = 0;
+            for (int i = 0; i < a.Length; i++)
+            {
+                b += a[i];
+            }
+            Console.WriteLine(b / a.Length);
 
         }
     }
