@@ -165,7 +165,20 @@ namespace Laba4
                 }
             }
             Console.WriteLine(b);
-
+            //Задание 6
+            List<string> a = ["win", "loss", "win", "win", "loss"];
+            int sh = 0;
+            int nesh = 0;
+            foreach (var p in a)
+            {
+                if (p == "win")
+                {
+                    sh++;
+                }
+                else
+                    nesh++;
+            }
+            Console.WriteLine($"Побед= {sh},Поражений= {nesh}");
 
 
 
