@@ -129,7 +129,17 @@ namespace Laba4
                 b += a[i];
             }
             Console.WriteLine(b);
-
+            //Задание 3
+            int[] a = [1, 3, 7, 2, 5];
+            int b = a[0];
+            for (int i = 1; i < a.Length; i++)
+            {
+                if (b <= a[i])
+                {
+                    b = a[i];
+                }
+            }
+            Console.WriteLine(b);
 
 
 
