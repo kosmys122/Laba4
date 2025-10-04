@@ -154,6 +154,17 @@ namespace Laba4
                     nesh++;
             }
             Console.WriteLine($"Чётных чисел= {sh},нечётных чисел= {nesh}");
+            //Задание 5
+            int[] a = [120, 95, 110, 105, 100];
+            int b = a[0];
+            for (int i = 1; i < a.Length; i++)
+            {
+                if (b >= a[i])
+                {
+                    b = a[i];
+                }
+            }
+            Console.WriteLine(b);
 
 
 
