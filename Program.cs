@@ -188,7 +188,27 @@ namespace Laba4
                 b += a[i];
             }
             Console.WriteLine(b / a.Length);
-
+            //Задание 8
+            List<string> b = [];
+            int c = 0;
+            List<string> a = ["Меч", "Ласточка", "Бомба", "Зелье Гром", "Ласточка"];
+            foreach (var p in a)
+            {
+                if (p == "Ласточка")
+                {
+                    b.Add("Кошка");
+                }
+                else
+                    b.Add(p);
+                foreach (var q in b)
+                {
+                    c++;
+                }
+            }
+            for (int i = 0; i < c; i++)
+            {
+                Console.WriteLine(b[i]);
+            }
         }
     }
 }
